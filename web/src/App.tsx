@@ -44,6 +44,9 @@ export default function App() {
         <button data-testid="btn-increment" onClick={() => run("increment", api.increment)}>
           Increment
         </button>
+                    <button data-testid="btn-divide" onClick={() => run("divide", api.decrement)}>
+                      Divide
+                    </button>
                     <button data-testid="btn-multiply" onClick={() => run("multiply", api.increment)}>
                       Multiply
                     </button>
