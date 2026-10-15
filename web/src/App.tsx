@@ -44,6 +44,9 @@ export default function App() {
         <button data-testid="btn-increment" onClick={() => run("increment", api.increment)}>
           Increment
         </button>
+        <button data-testid="btn-qaw-1792099596384" onClick={() => run("qaw-1792099596384", api.increment)}>
+          QAW 1792099596384
+        </button>
         <button data-testid="btn-qaw-1792013435604" onClick={() => run("qaw-1792013435604", api.increment)}>
           QAW 1792013435604
         </button>
